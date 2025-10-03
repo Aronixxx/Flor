@@ -1,0 +1,39 @@
+html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Ramo de Flores</title>
+  <style>
+    body {
+      background: #f0f8ff;
+      text-align: center;
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    h1 {
+      color: #d05c5c;
+    }
+    .flower {
+      font-size: 100px;
+      animation: sway 2s infinite alternate;
+      display: inline-block;
+      margin: 10px;
+    }
+    @keyframes sway {
+      from { transform: rotate(-10deg); }
+      to { transform: rotate(10deg); }
+    }
+  </style>
+</head>
+<body>
+  <h1>Ramo de Flores 🌸🌺🌼</h1>
+  <div>
+    <span class="flower">🌸</span>
+    <span class="flower">🌺</span>
+    <span class="flower">🌼</span>
+    <span class="flower">🌻</span>
+    <span class="flower">🌷</span>
+  </div>
+</body>
+</html>
